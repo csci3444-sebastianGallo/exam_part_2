@@ -3,10 +3,6 @@
     "version": "1.0.0",
     "main": "index.js",
     "scripts": {
-<<<<<<< HEAD
-        "test": "mocha",
-        "start": "node server.js"
-=======
         "start": "nodemon server.js",
 
         "cleanCoverageDirs": "rm -rf .nyc_output coverage",
@@ -39,7 +35,6 @@
         "openCoverageReport_inBrowser": "opn coverage/lcov-report/index.html",
 
         "testAndCoverageAndReport": "npm run testAndCoverage && npm run openCoverageReport"
->>>>>>> first commit
 
     },
     "keywords": [],

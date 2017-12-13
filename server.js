@@ -47,22 +47,8 @@ app.get('/square', function(req, res) {
     res.render('./pages/square.ejs', squaretemplate);
 });
 
-<<<<<<< HEAD
-app.get('/*', function(req, res) {
-    res.status(404).render('pages/errors.ejs', { head: { title: 'Error' } });
-});
-
-=======
->>>>>>> first commit
 
 app.get('/about', function(req, res) {
 
     res.status(200).render('./pages/about.html');
-<<<<<<< HEAD
-=======
-});
-
-app.get('/error', function(req, res) {
-    res.status(404).render('pages/errors.ejs', { head: { title: 'Error' } });
->>>>>>> first commit
 });

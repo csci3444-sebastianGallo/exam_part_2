@@ -9,11 +9,7 @@ module.exports = {
             inpNumber = (inpNumber * inpNumber);
         } else if (typeof inpNumber === "string") {
             inpNumber = parseInt(inpNumber);
-<<<<<<< HEAD
-            inpNumber = (squared * squared);
-=======
             inpNumber = (inpNumber * inpNumber);
->>>>>>> first commit
         }
         return inpNumber;
     }
